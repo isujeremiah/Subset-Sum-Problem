@@ -14,6 +14,6 @@ That iteration count is computed from the standard Grover formula based on $N = 
 
 After amplification, the circuit is evaluated (statevector and/or sampled counts) to show which bitstrings are most likely outcomes.  
 
-Those high-probability bitstrings are mapped back to actual subsets of S, giving the candidate solutions for the target sum.
+Those high-probability bitstrings are mapped back to actual subsets of $S$, giving the candidate solutions for the target sum.
 
 The code also handles edge cases like empty input and provides outputs that make it easy to see both valid subsets and their quantum probabilities.
