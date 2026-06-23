@@ -1,6 +1,4 @@
-# Subset-Sum-Problem
-Solving the subset-sum problem using Grover's Algorithm.
-
+# Solving the subset-sum problem using Grover's Algorithm.
 This notebook solves the subset-sum problem by combining a classical check with Grover-style quantum amplitude amplification.  
 Given a set $S$ of cardinality $n \ge 0$ (given as a list), and target $t$, it first classically finds all subsets whose sum equals $t$ and encodes those solutions as bitstrings. 
 
