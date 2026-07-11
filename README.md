@@ -15,3 +15,4 @@ After amplification, the circuit is evaluated (statevector and/or sampled counts
 Those high-probability bitstrings are mapped back to actual subsets of $S$, giving the candidate solutions for the target sum.
 
 The code also handles edge cases like empty input and provides outputs that make it easy to see both valid subsets and their quantum probabilities.
+For example, if $S = \{1,2,3,4\}$ and $n=7$, then Subset-sum function outputs the sets $S_0 = \{1,2,4\}$ and  $S_1 = \{3,4\}$.
